@@ -17,10 +17,10 @@ $ npm install cpu-cluster
 
 ## Usage
 ```js
-const cpu-cluster = require('cpu-cluster')
+const cpuCluster = require('cpu-cluster')
 const http = require('http')
 
-const cluster = cpu-cluster(function () {
+const cluster = cpuCluster(function () {
   http.createServer(function (req, res) {
     res.setHeader('Content-Type', 'text/plain')
     res.end('hello world')
