@@ -1,6 +1,6 @@
 {
   "name": "cpu-cluster",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turn a server into a CPU bound cluster",
   "main": "index.js",
   "scripts": {
